@@ -12,6 +12,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link href="~/Content/Palvelukoirat.css" rel="stylesheet" />
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
@@ -24,12 +26,25 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav text-uppercase margin_content">
-                <li class="nav-item marginxl">
-                    <a class="nav-link" href="#">Etusivu</a>
+            <ul class="navbar-nav text-uppercase">
+                <li class="nav-item marginimg">
+                    <a class="navbar-brand" href="~/Palvelukoirat/Index">
+                        <img src="~/Images/logo_wg3.jpg" alt="Logo" style="width:40px;" />
+                    </a>
                 </li>
-                <li class="nav-item margin">
-                    <a class="nav-link" href="index.html">Yhdistys</a>
+                <li class="nav-item marginxl">
+                    <a class="nav-link" href="~/Palvelukoirat/Index">Etusivu</a>
+                </li>
+                <li class="nav-item dropdown margin">
+                    <a class="nav-link dropdown-toggle" href="~/Palvelukoirat/Yhteystiedot" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Yhteystiedot
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/Palvelukoirat/Yhteystiedot">Yhteystiedot</a>
+                        <a class="dropdown-item" href="~/Palvelukoirat/Säännöt">Säännöt</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
                 </li>
                 <li class="nav-item margin">
                     <a class="nav-link" href="index2.html">Kenttä ja Ohjeet</a>
@@ -62,7 +77,7 @@
 
         <p>
             © Porvoon Palveluskoirat - Borgå Brukshundar ry | Yhteystiedot | Päivitykset <a href="https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp" data-toggle="tooltip"
-                                                                                            title="Visit w3schools"></a>
+                                                                                           title="Visit w3schools"></a>
         </p>
     </footer>
 

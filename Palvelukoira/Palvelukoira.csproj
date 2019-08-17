@@ -144,6 +144,8 @@
     <Content Include="Images\IMG_4974.JPG" />
     <Content Include="Images\Koira.jpg" />
     <Content Include="Images\logo_wg3.jpg" />
+    <Content Include="Images\maarit.jpg" />
+    <Content Include="Images\marian_uusi.jpg" />
     <Content Include="Images\pea.jpg" />
     <Content Include="Images\PK kurssi %284%29.jpg" />
     <Content Include="Images\Pkt.jpg" />
@@ -176,6 +178,8 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Palvelukoirat\Index.cshtml" />
+    <Content Include="Views\Palvelukoirat\Yhteystiedot.cshtml" />
+    <Content Include="Views\Palvelukoirat\Säännöt.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

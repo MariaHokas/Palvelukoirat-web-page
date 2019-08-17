@@ -1,6 +1,7 @@
 ﻿body {
-    font: 400 15px/1.8 Lato, sans-serif;
+    /*font: 400 15px/1.8 Lato, sans-serif;
     color: #fff;
+    min-height: 400px;*/
 }
 
 div {
@@ -12,47 +13,50 @@ div {
         min-height: 500px;
     }
 
-p.black {
+p {
     color: #000;
 }
-h2{
-    color: black;
+h2.frontpage {
+    color: white;
 }
 
-h3 {
-    color: #fff;
-    padding: 50px;
-}
-
-    h3.black {
-        color: whitesmoke;
-        padding: 20px;
-        font-weight: bold;
+h3.black {
+  color: whitesmoke;
+    font-weight: bold;
     }
     h4{
         color: black;
     }
 
-h5 {
+/*h5 {
     margin: 10px 0 30px 0;
     letter-spacing: 10px;
     font-size: 15px;
     color: black;
-}
+}*/
 
-a {
+/*a {
     font: 400 20px/1.8 Lato, sans-serif;
+}*/
+
+i.margin{
+    margin-right: 20px;
 }
 
 nav.ice {
     background-color: #277536;
-    margin-bottom: 0;
-    padding: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+a.logo_padding{
+    padding: 1px;
+    margin-top: 0px;
+}
+.container {
+    padding: 40px 30px;
 }
 
-.container {
-    padding: 40px 60px;
-}
 
 .dog {
     border: 10px;
@@ -140,21 +144,6 @@ th {
     background: white;
 }
 
-#btn {
-    padding: 10px 100px;
-    background-color: #552420;
-    color: #f1f1f1;
-    border-radius: 0px;
-    transition: .2s;
-    float: right;
-}
-
-.btn:hover,
-.btn:focus {
-    border: 1px solid #552420;
-    background-color: #fff;
-    color: #000;
-}
 
 footer {
     background-color: #277536;
@@ -190,10 +179,11 @@ div.rgba {
 
 div.border {
     border-color: black;
-    background-color: #fff;
+    background-color: whitesmoke;
     min-height: 200px;
     margin-bottom: 30px;
-    border-radius: 5%;
+    margin-left: auto;
+
 }
 
 .imgforest {
@@ -232,14 +222,18 @@ div.border {
 }
 li.margin{
   margin-left: 20px;
+  padding: 20px 0px;
 
 }
 li.marginxl {
     margin-left: 100px;
+    padding: 20px 0px;
 }
-ul.margin_content{
-    position:center;
+li.marginimg{
+    margin-left: 20px;
+    margin-right: 0px;
 }
+
 #view-source {
     font-size: 20px;
     position: fixed;
@@ -256,3 +250,18 @@ ul.margin_content{
 img.add {
     margin: 2%;
 }
+div.logo_contact{
+    padding: 4% 0%;
+}
+.name {
+    padding: 0px 25px;
+}
+div.contact{
+    padding: 10px;
+}
+.event{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+

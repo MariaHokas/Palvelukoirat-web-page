@@ -13,5 +13,15 @@ namespace Palvelukoira.Controllers
         {
             return View();
         }
+        public ActionResult Yhteystiedot()
+        {
+            return View();
+        }
+        public ActionResult Säännöt()
+        {
+            return View();
+        }
+
+
     }
 }
