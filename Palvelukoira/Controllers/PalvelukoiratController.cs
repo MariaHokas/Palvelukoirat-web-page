@@ -30,6 +30,10 @@ namespace Palvelukoira.Controllers
         {
             return View();
         }
+        public ActionResult Kenttä()
+        {
+            return View();
+        }
 
 
     }

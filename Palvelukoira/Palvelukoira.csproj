@@ -150,6 +150,7 @@
     <Content Include="Images\IMGP4758c.jpg" />
     <Content Include="Images\IMGP4818c.jpg" />
     <Content Include="Images\IMG_4974.JPG" />
+    <Content Include="Images\kenttaheina.jpg" />
     <Content Include="Images\Koira.jpg" />
     <Content Include="Images\lehti.php" />
     <Content Include="Images\logo_wg3.jpg" />
@@ -194,6 +195,7 @@
     <Content Include="Views\Palvelukoirat\Säännöt.cshtml" />
     <Content Include="Views\Palvelukoirat\Lehti.cshtml" />
     <Content Include="Views\Palvelukoirat\Jäseneksi.cshtml" />
+    <Content Include="Views\Palvelukoirat\Kenttä.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
