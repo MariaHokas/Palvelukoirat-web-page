@@ -10,7 +10,7 @@ div {
 }
 
     div.test {
-        min-height: 500px;
+        min-height: 300px;
     }
 
 p {
@@ -55,6 +55,7 @@ a.logo_padding{
 }
 .container {
     padding: 40px 30px;
+    background-color: white;
 }
 
 
@@ -180,7 +181,7 @@ div.rgba {
 div.border {
     border-color: black;
     background-color: whitesmoke;
-    min-height: 200px;
+    min-height: 150px;
     margin-bottom: 30px;
     margin-left: auto;
 
@@ -198,11 +199,12 @@ div.border {
 
 .imgtest {
     margin-top: 50px;
-    background-image: url('../Images/PK kurssi (4).jpg');
+    background-image: url('../Images/0 003.JPG');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
+    margin-bottom: 0px;
 }
 
 .imgkentta {
@@ -243,7 +245,7 @@ li.marginimg{
     margin-right: 40px;
     margin-bottom: 85px;
     z-index: 900;
-    background-color: dimgray;
+    background-color: #277332;
     border-radius: 5%;
     padding: 10px 10px;
 }
@@ -263,5 +265,15 @@ div.contact{
     font-size: 40px;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+.navbar-fixed-top,
+.navbar-fixed-bottom{
+    position: absolute;
+
+}
+btn-primary,
+btn {
+    background-color: #277332;
+    border: none;
 }
 

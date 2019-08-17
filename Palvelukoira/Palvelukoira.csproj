@@ -137,12 +137,21 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\0 003.JPG" />
+    <Content Include="Images\108.jpg" />
+    <Content Include="Images\208.jpg" />
+    <Content Include="Images\308.jpg" />
+    <Content Include="Images\408.jpg" />
+    <Content Include="Images\409.jpg" />
     <Content Include="Images\avec.jpg" />
     <Content Include="Images\Dia68.JPG" />
+    <Content Include="Images\haukkuset1kansip.gif" />
+    <Content Include="Images\Haukkuset_1_2016.jpg" />
     <Content Include="Images\IMGP4758c.jpg" />
     <Content Include="Images\IMGP4818c.jpg" />
     <Content Include="Images\IMG_4974.JPG" />
     <Content Include="Images\Koira.jpg" />
+    <Content Include="Images\lehti.php" />
     <Content Include="Images\logo_wg3.jpg" />
     <Content Include="Images\maarit.jpg" />
     <Content Include="Images\marian_uusi.jpg" />
@@ -152,6 +161,8 @@
     <Content Include="Images\PORVOO2019pieni.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="docs\Haukkuset_2_2018_netti.pdf" />
+    <Content Include="docs\hset1nettilehti.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -180,6 +191,7 @@
     <Content Include="Views\Palvelukoirat\Index.cshtml" />
     <Content Include="Views\Palvelukoirat\Yhteystiedot.cshtml" />
     <Content Include="Views\Palvelukoirat\Säännöt.cshtml" />
+    <Content Include="Views\Palvelukoirat\Lehti.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

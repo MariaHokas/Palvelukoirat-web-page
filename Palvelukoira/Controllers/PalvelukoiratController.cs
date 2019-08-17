@@ -22,6 +22,11 @@ namespace Palvelukoira.Controllers
             return View();
         }
 
+        public ActionResult Lehti()
+        {
+            return View();
+        }
+
 
     }
 }
