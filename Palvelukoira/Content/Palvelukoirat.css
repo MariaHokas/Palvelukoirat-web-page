@@ -1,0 +1,258 @@
+﻿body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #fff;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+    div.test {
+        min-height: 500px;
+    }
+
+p.black {
+    color: #000;
+}
+h2{
+    color: black;
+}
+
+h3 {
+    color: #fff;
+    padding: 50px;
+}
+
+    h3.black {
+        color: whitesmoke;
+        padding: 20px;
+        font-weight: bold;
+    }
+    h4{
+        color: black;
+    }
+
+h5 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+a {
+    font: 400 20px/1.8 Lato, sans-serif;
+}
+
+nav.ice {
+    background-color: #277536;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.container {
+    padding: 40px 60px;
+}
+
+.dog {
+    border: 10px;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.8;
+}
+
+.color {
+    border: 10px;
+    margin: 50px;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    opacity: 0.8;
+}
+
+.kokotable {
+    border-collapse: collapse;
+    border: 1px solid #acbec9;
+    width: 100%;
+    table-layout: auto;
+    align-items: center;
+    align-self: auto;
+}
+
+td,
+th {
+    border: 1px solid #acbec9;
+    padding: 8px;
+    text-align: left;
+    width: 10%;
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(60%);
+    filter: grayscale(60%);
+    /* make all photos black and white */
+    width: 100%;
+    /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: white !important;
+}
+
+#white {
+    background-color: #fff;
+    min-height: 300px;
+    color: #000;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+        /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+
+    .color {
+        border: 5px;
+        margin: 0px;
+        text-align: center;
+        width: 80%;
+        height: 80%;
+        opacity: 0.8;
+    }
+}
+
+.bg-1 {
+    background: #277536;
+    color: black;
+}
+
+    .bg-1 h3 {
+        color: white;
+    }
+
+    .bg-1 p {
+        font-style: italic;
+    }
+
+.bg-2 {
+    background: white;
+}
+
+#btn {
+    padding: 10px 100px;
+    background-color: #552420;
+    color: #f1f1f1;
+    border-radius: 0px;
+    transition: .2s;
+    float: right;
+}
+
+.btn:hover,
+.btn:focus {
+    border: 1px solid #552420;
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    background-color: #277536;
+    color: white;
+    padding: 32px;
+}
+
+    footer a:hover {
+        color: #5c6b76;
+        text-decoration: none;
+    }
+
+.form-control {
+    border-radius: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.logo {
+    padding-top: 40px;
+}
+
+div.rgba {
+    border-radius: 0.5%;
+    background-color: rgba(39, 117, 54, 0.6);
+}
+
+.logo-text {
+    padding-top: 10px;
+}
+
+div.border {
+    border-color: black;
+    background-color: #fff;
+    min-height: 200px;
+    margin-bottom: 30px;
+    border-radius: 5%;
+}
+
+.imgforest {
+    margin-top: 0;
+    background-image: url('../Images/IMGP4818c.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    /*background-attachment: fixed;*/
+}
+
+.imgtest {
+    margin-top: 50px;
+    background-image: url('../Images/PK kurssi (4).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.imgkentta {
+    /*background-image: url('../Images/IMGP4818c.jpg');*/
+    background-image: url('../Images/IMGP4758c.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.kentta {
+    margin-top: 40px; 
+    min-height: 400px;
+}
+li.margin{
+  margin-left: 20px;
+
+}
+li.marginxl {
+    margin-left: 100px;
+}
+ul.margin_content{
+    position:center;
+}
+#view-source {
+    font-size: 20px;
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 85px;
+    z-index: 900;
+    background-color: dimgray;
+    border-radius: 5%;
+    padding: 10px 10px;
+}
+img.add {
+    margin: 2%;
+}

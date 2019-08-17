@@ -3,37 +3,69 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="tehtava4.2.2.css" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-            </div>
+
+    <nav class="navbar navbar-expand-md navbar-dark navbar-fixed-top ice">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav text-uppercase margin_content">
+                <li class="nav-item marginxl">
+                    <a class="nav-link" href="#">Etusivu</a>
+                </li>
+                <li class="nav-item margin">
+                    <a class="nav-link" href="index.html">Yhdistys</a>
+                </li>
+                <li class="nav-item margin">
+                    <a class="nav-link" href="index2.html">Kenttä ja Ohjeet</a>
+                </li>
+                <li class="nav-item margin">
+                    <a class="nav-link" href="#">Tulokset</a>
+                </li>
+                <li class="nav-item margin">
+                    <a class="nav-link" href="tehtävä4.1.2.html">Kalenteri</a>
+                </li>
+                <li class="nav-item margin">
+                    <a class="nav-link" href="tehtävä4.1.2.html">Peko</a>
+                </li>
+                <li class="nav-item margin">
+                    <a class="nav-link" href="tehtävä4.1.2.html">Kuvat</a>
+                </li>
+                <li class="nav-item margin">
+                    <a class="nav-link" href="tehtävä4.1.2.html">Linkit</a>
+                </li>
+            </ul>
         </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
+    </nav>
+
+    @RenderBody()
+    <hr />
+    <!-- Footer -->
+    <footer class="text-center">
+
+      
+
+        <p>
+            © Porvoon Palveluskoirat - Borgå Brukshundar ry | Yhteystiedot | Päivitykset <a href="https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp" data-toggle="tooltip"
+                                                                                            title="Visit w3schools"></a>
+        </p>
+    </footer>
+
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
