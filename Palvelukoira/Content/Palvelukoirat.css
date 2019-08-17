@@ -46,8 +46,7 @@ i.margin{
 nav.ice {
     background-color: #277536;
     margin-bottom: 10px;
-    padding: 5px;
-
+    
 }
 a.logo_padding{
     padding: 1px;
@@ -171,7 +170,7 @@ textarea {
 
 div.rgba {
     border-radius: 0.5%;
-    background-color: rgba(39, 117, 54, 0.6);
+    background-color: rgb(39,117,54);
 }
 
 .logo-text {
@@ -275,5 +274,9 @@ btn-primary,
 btn {
     background-color: #277332;
     border: none;
+}
+.add_jasenyys{
+    
+    padding: 75px 0px;
 }
 

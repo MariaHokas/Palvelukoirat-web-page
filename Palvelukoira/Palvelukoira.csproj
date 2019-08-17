@@ -153,6 +153,7 @@
     <Content Include="Images\Koira.jpg" />
     <Content Include="Images\lehti.php" />
     <Content Include="Images\logo_wg3.jpg" />
+    <Content Include="Images\maari.jpg" />
     <Content Include="Images\maarit.jpg" />
     <Content Include="Images\marian_uusi.jpg" />
     <Content Include="Images\pea.jpg" />
@@ -192,6 +193,7 @@
     <Content Include="Views\Palvelukoirat\Yhteystiedot.cshtml" />
     <Content Include="Views\Palvelukoirat\Säännöt.cshtml" />
     <Content Include="Views\Palvelukoirat\Lehti.cshtml" />
+    <Content Include="Views\Palvelukoirat\Jäseneksi.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
