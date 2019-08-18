@@ -75,11 +75,13 @@ a.logo_padding{
 
 .kokotable {
     border-collapse: collapse;
-    border: 1px solid #acbec9;
+    border: 1.5px solid black;
     width: 100%;
     align-items: center;
     align-self: auto;
     margin-top: 30px;
+    box-shadow: 2px 2px 8px #888888;
+   
 }
 
 td,
@@ -91,7 +93,7 @@ th {
     min-height: 20%;
 }
 tr{
-    height: 40px;
+    height: 50px;
 }
 
 tr.large{
@@ -207,11 +209,11 @@ div.border {
 
 .imgtest {
     margin-top: 50px;
-    background-image: url('../Images/0 003.JPG');
+    background-image: url('../Images/dog-2144421__480.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: local;
     margin-bottom: 0px;
 }
 
@@ -288,4 +290,23 @@ btn {
     
     padding: 75px 0px;
 }
+
+.kenttä_rules {
+    padding: 20px 100px;
+    border: 1px solid #000;
+    margin-left: 0px;
+    margin-right: 25px;
+}
+img.säännöt {
+    box-shadow: 2px 2px 8px #888888;
+}
+div.takaosa {
+    background-color: rgba(179, 182, 174, 0.6);
+    min-height: 250px;
+    width:600px;
+    padding: 20px;
+    margin-top:30px;
+    margin-left: 30%;
+}
+
 
