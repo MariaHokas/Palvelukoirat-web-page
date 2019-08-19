@@ -44,7 +44,8 @@ i.margin{
 }
 
 nav.ice {
-    background-color: #277536;   
+    background-color: #277536;  
+    
 }
 a.logo_padding{
     padding: 1px;
@@ -277,7 +278,7 @@ div.contact{
 }
 .navbar-fixed-top,
 .navbar-fixed-bottom{
-    position: absolute;
+    position: page;
 
 }
 btn-primary,
@@ -300,13 +301,6 @@ btn {
 img.säännöt {
     box-shadow: 2px 2px 8px #888888;
 }
-div.takaosa {
-    margin-top: 40px;
-    background-color: rgba(250, 250, 250, 0.7);
-    min-height: 400px;
-    min-width: 200px;
-    padding: 50px 20px;
-    float: left;
-}
+
 
 
