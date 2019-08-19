@@ -10,7 +10,7 @@ div {
 }
 
     div.test {
-        min-height: 300px;
+        min-height: 470px;
     }
 
 p {
@@ -208,8 +208,7 @@ div.border {
 }
 
 .imgtest {
-    margin-top: 50px;
-    background-image: url('../Images/dog-2144421__480.jpg');
+    background-image: url('../Images/IMGP4825c.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -283,8 +282,9 @@ div.contact{
 }
 btn-primary,
 btn {
+    color: #277332;
     background-color: #277332;
-    border: none;
+    border-color: #277332;
 }
 .add_jasenyys{
     
@@ -301,12 +301,12 @@ img.säännöt {
     box-shadow: 2px 2px 8px #888888;
 }
 div.takaosa {
-    background-color: rgba(179, 182, 174, 0.6);
-    min-height: 250px;
-    width:600px;
-    padding: 20px;
-    margin-top:30px;
-    margin-left: 30%;
+    margin: 20px;
+    background-color: rgba(250, 250, 250, 0.7);
+    min-height: 400px;
+    min-width: 200px;
+    padding: 50px 20px;
+    float: left;
 }
 
 

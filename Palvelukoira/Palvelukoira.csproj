@@ -143,6 +143,8 @@
     <Content Include="Images\308.jpg" />
     <Content Include="Images\408.jpg" />
     <Content Include="Images\409.jpg" />
+    <Content Include="Images\8.5.2010 049c.jpg" />
+    <Content Include="Images\8.5.2010 049c2.jpg" />
     <Content Include="Images\avec.jpg" />
     <Content Include="Images\Dia68.JPG" />
     <Content Include="Images\dog-2144421__480.jpg" />
@@ -150,6 +152,7 @@
     <Content Include="Images\Haukkuset_1_2016.jpg" />
     <Content Include="Images\IMGP4758c.jpg" />
     <Content Include="Images\IMGP4818c.jpg" />
+    <Content Include="Images\IMGP4825c.jpg" />
     <Content Include="Images\IMG_4974.JPG" />
     <Content Include="Images\kenttaheina.jpg" />
     <Content Include="Images\Koira.jpg" />
@@ -159,6 +162,8 @@
     <Content Include="Images\maarit.jpg" />
     <Content Include="Images\marian_uusi.jpg" />
     <Content Include="Images\pea.jpg" />
+    <Content Include="Images\peko_1.jpg" />
+    <Content Include="Images\peko_2.jpg" />
     <Content Include="Images\PK kurssi %284%29.jpg" />
     <Content Include="Images\Pkt.jpg" />
     <Content Include="Images\PORVOO2019pieni.jpg" />
@@ -198,6 +203,7 @@
     <Content Include="Views\Palvelukoirat\Lehti.cshtml" />
     <Content Include="Views\Palvelukoirat\Jäseneksi.cshtml" />
     <Content Include="Views\Palvelukoirat\Kenttä.cshtml" />
+    <Content Include="Views\Palvelukoirat\Peko.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

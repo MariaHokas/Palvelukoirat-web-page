@@ -35,6 +35,10 @@ namespace Palvelukoira.Controllers
             return View();
         }
 
+        public ActionResult Peko()
+        {
+            return View();
+        }
 
     }
 }
