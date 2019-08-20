@@ -15,6 +15,10 @@ div {
 
 p {
     color: #000;
+    line-height: 1.7;
+}
+li.lineheight {
+    line-height: 1.7;
 }
 h2.frontpage {
     color: white;
