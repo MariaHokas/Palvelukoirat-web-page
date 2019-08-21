@@ -172,6 +172,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="docs\Haukkuset_2_2018_netti.pdf" />
     <Content Include="docs\hset1nettilehti.pdf" />
+    <None Include="Properties\PublishProfiles\Palvelukoira2019v1 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
