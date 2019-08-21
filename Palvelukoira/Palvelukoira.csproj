@@ -204,6 +204,7 @@
     <Content Include="Views\Palvelukoirat\Jäseneksi.cshtml" />
     <Content Include="Views\Palvelukoirat\Kenttä.cshtml" />
     <Content Include="Views\Palvelukoirat\Peko.cshtml" />
+    <Content Include="Views\Palvelukoirat\Linkit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

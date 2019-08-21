@@ -21,7 +21,6 @@ namespace Palvelukoira.Controllers
         {
             return View();
         }
-
         public ActionResult Lehti()
         {
             return View();
@@ -34,11 +33,13 @@ namespace Palvelukoira.Controllers
         {
             return View();
         }
-
         public ActionResult Peko()
         {
             return View();
         }
-
+        public ActionResult Linkit()
+        {
+            return View();
+        }
     }
 }
