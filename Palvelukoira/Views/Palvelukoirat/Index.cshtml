@@ -42,11 +42,13 @@
     <hr />
 
     <!--MAINOKSET-->
-    <div class="add">
-        <img src="~/Images/PORVOO2019pieni.jpg" class="add" />
-        <img src="~/Images/Pkt.jpg" class="add" width="250" height="100" />
-        <img src="~/Images/avec.jpg" class="add" />
-        <img src="~/Images/pea.jpg" class="add" />
+    <div class="container">
+        <div class="add">
+            <img src="~/Images/PORVOO2019pieni.jpg" class="add" />
+            <img src="~/Images/Pkt.jpg" class="add" width="250" height="100" />
+            <img src="~/Images/avec.jpg" class="add" />
+            <img src="~/Images/pea.jpg" />
+        </div>
     </div>
     <br />
     <hr />
@@ -63,7 +65,37 @@
                 <br />
                 <p class="text-center black">Lauantai 13 Heinäkuu 2019 - Sunnuntai 14 Heinäkuu 2019</p><br>
                 <p class="text-center" style="color:#277332;"><strong>Koko päivän tapahtuma</strong></p><br>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+                    Ohjeet ilmoittautumiseen
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Modal Heading</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                Modal body..
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
+ 
             <div class="col-sm-1"></div>
             <div class="col-sm-3 border shadow">
                 <br />
@@ -149,25 +181,7 @@
             </div>
         </div>
     </div>
-
-    <a href="~/Palvelukoirat/Yhteystiedot" target="_blank"
-       id="view-source"
-       class="btn btn btn-success">Yhteystiedot</a>
-
     <script>
-        $(document).ready(function () {
-            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 500, function () {
-
-            });
-        }
-        );
-        function myFunction() {
-            alert("Thanks for pressing! Have a good day!");
-        }
-                 // End if
 
     </script>
 

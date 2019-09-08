@@ -41,5 +41,10 @@ namespace Palvelukoira.Controllers
         {
             return View();
         }
+
+        public ActionResult Tulokset()
+        {
+            return View();
+        }
     }
 }
