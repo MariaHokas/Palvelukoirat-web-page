@@ -18,9 +18,6 @@ div {
     padding: 0;
 }
 
-    div.test {
-        min-height: 470px;
-    }
 
 p {
     color: #000;
@@ -46,7 +43,7 @@ i.margin{
     margin-right: 20px;
 }
 
-nav.ice {
+nav.pal_nav {
     background-color: #277536;  
     
 }
@@ -56,25 +53,7 @@ a.logo_padding{
 }
 .container {
     padding: 40px 30px;
-    background-color: white;
-}
-
-
-.dog {
-    border: 10px;
-    margin-bottom: 25px;
-    width: 80%;
-    height: 80%;
-    opacity: 0.8;
-}
-
-.color {
-    border: 10px;
-    margin: 50px;
-    text-align: center;
-    width: 80%;
-    height: 80%;
-    opacity: 0.8;
+  
 }
 
 .kokotable {
@@ -106,18 +85,6 @@ th.large {
     width: 40%;
 }
 
-.carousel-inner img {
-    -webkit-filter: grayscale(60%);
-    filter: grayscale(60%);
-    /* make all photos black and white */
-    width: 100%;
-    /* Set width to 100% */
-    margin: auto;
-}
-
-.carousel-caption h3 {
-    color: white !important;
-}
 
 #white {
     background-color: #fff;
@@ -125,38 +92,6 @@ th.large {
     color: #000;
 }
 
-@media (max-width: 600px) {
-    .carousel-caption {
-        display: none;
-        /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
-
-    .color {
-        border: 5px;
-        margin: 0px;
-        text-align: center;
-        width: 80%;
-        height: 80%;
-        opacity: 0.8;
-    }
-}
-
-.bg-1 {
-    background: #277536;
-    color: black;
-}
-
-    .bg-1 h3 {
-        color: white;
-    }
-
-    .bg-1 p {
-        font-style: italic;
-    }
-
-.bg-2 {
-    background: white;
-}
 
 
 footer {
@@ -186,10 +121,6 @@ textarea {
     padding-top: 40px;
 }
 
-div.rgba {
-    border-radius: 0.5%;
-    background-color: rgb(39,117,54);
-}
 
 .logo-text {
     padding-top: 10px;
@@ -204,27 +135,8 @@ div.border {
 
 }
 
-.imgforest {
-    margin-top: 0;
-    background-image: url('../Images/IMGP4818c.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    /*background-attachment: fixed;*/
-}
 
-.imgtest {
-    background-image: url('../Images/IMGP4825c.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    margin-bottom: 0px;
-}
-
-.imgkentta {
-    /*background-image: url('../Images/IMGP4818c.jpg');*/
+.imgetusivu {
     background-image: url('../Images/IMGP4758c.jpg');
     background-size: cover;
     background-position: center;
@@ -234,17 +146,30 @@ div.border {
     height: 100%;
 }
 
-.kentta {
-    margin-top: 40px; 
+.imghakurymät {
+    background-image: url('../Images/Dia68.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.hakuryhmät_margin {
+    margin-top: 40px;
     min-height: 400px;
 }
-li.margin{
-  margin-left: 20px;
-  padding: 20px 0px;
 
+.etusivu_margin {
+    margin-top: 40px; 
+    min-height: 500px;
+}
+li.margin {
+    text-align: center;
+    margin-left: 20px;
+    padding: 20px 0px;
 }
 li.marginxl {
-    margin-left: 100px;
+    text-align: center;
     padding: 20px 0px;
 }
 li.marginimg{
@@ -252,25 +177,11 @@ li.marginimg{
     margin-right: 0px;
 }
 
-#view-source {
-    font-size: 20px;
-    position: fixed;
-    display: block;
-    right: 0;
-    bottom: 0;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    z-index: 1000;
-    background-color: #277332;
-    border-radius: 5%;
-    padding: 10px 10px;
-}
 img.add {
     margin-right: 1%;
+    margin-top: 2%;
 }
-div.logo_contact{
-    padding: 4% 0%;
-}
+
 .name {
     padding: 0px 25px;
 }
@@ -298,7 +209,7 @@ btn {
     padding: 75px 0px;
 }
 
-.kenttä_rules {
+.kenttä_margin {
     padding: 20px 100px;
     border: 5px solid #277332;
     margin: 0;
@@ -306,6 +217,141 @@ btn {
 }
 img.säännöt {
     box-shadow: 2px 2px 8px #888888;
+}
+div.tausta_tapahtumat {
+    border-radius: 0.5%;
+    background-color: rgb(39,117,54);
+}
+.imgporvoo2019 {
+    background-image: url('../Images/PORVOO2019pieni.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+/*Mainosten kuvat*/
+.imgpkt {
+    background-image: url('../Images/Pkt.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+.imgavec {
+    background-image: url('../Images/Pkt.jpg');
+    background-image: url('../Images/avec.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+.imgpea {
+    background-image: url('../Images/pea.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+.imgyhteystiedot {
+    background-image: url('../Images/Koira.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 456px;
+}
+.imgjäseneksi {
+    background-image: url('../Images/maari.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 600px) {
+    .imgetusivu {
+        background-image: url('../Images/IMGP4758c.jpg');
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+    }
+
+    .hakuryhmät_margin {
+        margin-top: 10px;
+        min-height: 290px;
+    }
+    /*Mainosten kuvat*/
+    .imgporvoo2019 {
+        background-image: url('../Images/PORVOO2019pieni.jpg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100px;
+    }
+
+    .imgpkt {
+        background-image: url('../Images/Pkt.jpg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100px;
+        margin-top: 20px;
+    }
+
+    .imgavec {
+        background-image: url('../Images/avec.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 150px;
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+
+    .imgpea {
+        background-image: url('../Images/pea.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 150px;
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+    /*Muut kuvat*/
+    .imgyhteystiedot {
+        background-image: url('../Images/Koira.jpg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 290px;
+    }
+    .imgjäseneksi {
+        background-image: url('../Images/maari.jpg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 290px;
+    }
+    .kenttä_margin {
+        border: 5px solid #277332;
+        margin: 0;
+        background-color: white;
+        text-align: left;
+    }
+    div.margins {
+        min-height: 570px;
+        padding-bottom: 20px;
+        margin-top: 0px;
+    }
+    .container {
+        padding: 4px 3px;
+        background-color: white;
+    }
+
 }
 
 

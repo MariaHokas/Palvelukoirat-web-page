@@ -14,7 +14,7 @@
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
     <!--ETUSIVUN ENSIMMÄINEN KUVA-->
-    <div class="text-center logo imgkentta kentta">
+    <div class="text-center logo imgetusivu etusivu_margin">
         <img src="~/Images/logo_wg3.jpg" width="84" height="110" alt="Logo" style="margin-top: 50px;" />
         <h2 class="frontpage">Porvoon Palveluskoirat - Borgå Brukshundar Ry</h2>
     </div>
@@ -43,18 +43,22 @@
 
     <!--MAINOKSET-->
     <div class="container">
-        <div class="add">
-            <img src="~/Images/PORVOO2019pieni.jpg" class="add" />
-            <img src="~/Images/Pkt.jpg" class="add" width="250" height="100" />
-            <img src="~/Images/avec.jpg" class="add" />
-            <img src="~/Images/pea.jpg" />
+        <div class="row">
+            <div class="col-lg-4 imgporvoo2019 imgporvoo2019_margin">
+            </div>
+            <div class="col-lg-4 imgpkt">
+            </div>
+            <div class="col-lg-2 imgavec">
+            </div>
+            <div class="col-lg-2 imgpea">
+            </div>
         </div>
     </div>
     <br />
     <hr />
     <!-- Tulevat tapahtumat -->
     <h3 class="text-uppercase text-center">Tulevat Tapahtumat</h3>
-    <div class="container text-center rgba">
+    <div class="container text-center tausta_tapahtumat">
 
         <br>
         <div class="row">
@@ -74,18 +78,15 @@
                 <div class="modal" id="myModal">
                     <div class="modal-dialog">
                         <div class="modal-content">
-
                             <!-- Modal Header -->
                             <div class="modal-header">
                                 <h4 class="modal-title">Modal Heading</h4>
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                             </div>
-
                             <!-- Modal body -->
                             <div class="modal-body">
                                 Modal body..
                             </div>
-
                             <!-- Modal footer -->
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -156,6 +157,11 @@
                         <div class="col-sm-6">
                             <h3 class="text-uppercase"><b>Hakuryhmät:</b></h3>
                             <br />
+                            <h5>
+                                Jos haluat hakuryhmiin vierailemaan tai tutustumaan lajiin, niin voit kysellä paikkoja
+                                suoraan eri hakuryhmistä osoitteista:
+                            </h5>
+                            <br />
                             <h5><b>PK hakuryhmät:</b></h5>
                             <p class="black">saara.huomolin@gmail.com</p>
                             <p class="black">kblomqvist@luukku.com</p>
@@ -165,18 +171,12 @@
                             <br />
                             <h5><b>PEKO:</b></h5>
                             <p class="black">peko@porvoonpalveluskoirat.fi </p>
-                            <br /><br />
-                            <h5>
-                                Jos haluat hakuryhmiin vierailemaan tai tutustumaan lajiin, niin voit kysellä paikkoja
-                                suoraan eri hakuryhmistä osoitteista:
-                            </h5>
+                            <br />
                         </div>
-                        <div class="col-sm-6">
-                            <img src="~/Images/Dia68.JPG" width="500" alt="Koirat" style="margin-top:30px;" />
+                        <div class="col-sm-6 imghakurymät hakuryhmät_margin">
+                         
                         </div>
-                    </div>
-                   
-  
+                    </div>               
                 </div>
             </div>
         </div>
