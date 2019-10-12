@@ -6,6 +6,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 div.margins{
@@ -292,7 +293,7 @@ div.tausta_tapahtumat {
     }
 
     .btn, btn-success {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     @media (max-width: 600px) {
@@ -300,8 +301,7 @@ div.tausta_tapahtumat {
             font-size: 16px;
         }
 
-        .imgetusivu {
-            background-image: url('../Images/IMGP4758c.jpg');
+        .imgetusivu {            
             background-size: cover;
             background-position: right;
             background-repeat: no-repeat;
@@ -314,25 +314,25 @@ div.tausta_tapahtumat {
             min-height: 290px;
         }
         /*Mainosten kuvat*/
-        .imgporvoo2019 {
-            background-image: url('../Images/PORVOO2019pieni.jpg');
+        .imgporvoo2019 {     
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
             min-height: 100px;
+            margin-left: 20%;
         }
 
         .imgpkt {
-            background-image: url('../Images/Pkt.jpg');
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
             min-height: 100px;
+            min-width: 200px;
             margin-top: 20px;
+            margin-left: 20%;
         }
 
         .imgavec {
-            background-image: url('../Images/avec.jpg');
             background-size: contain;
             background-repeat: no-repeat;
             width: 200px;
@@ -342,7 +342,6 @@ div.tausta_tapahtumat {
         }
 
         .imgpea {
-            background-image: url('../Images/pea.jpg');
             background-size: contain;
             background-repeat: no-repeat;
             width: 200px;
@@ -352,7 +351,6 @@ div.tausta_tapahtumat {
         }
         /*Muut kuvat*/
         .imgyhteystiedot {
-            background-image: url('../Images/Koira.jpg');
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
@@ -361,7 +359,6 @@ div.tausta_tapahtumat {
         }
 
         .imgjäseneksi {
-            background-image: url('../Images/maari.jpg');
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
@@ -391,7 +388,7 @@ div.tausta_tapahtumat {
             padding: 1px;
             margin: 0px;
             width: 100%;
-            height: 100px;
+            height: 150px;
             line-height: 60px;
             border-bottom-color: #277332;
         }
