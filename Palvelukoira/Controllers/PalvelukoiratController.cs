@@ -46,5 +46,38 @@ namespace Palvelukoira.Controllers
         {
             return View();
         }
+        public ActionResult Valiot()
+        {
+            return View();
+        }
+
+        public ActionResult Valiotjamestarit()
+        {
+            return View();
+        }
+        public ActionResult Palkitut()
+        {
+            return View();
+        }
+
+        public ActionResult Tulokset2016()
+        {
+            return View();
+        }
+
+        public ActionResult Tulokset2014()
+        {
+            return View();
+        }
+
+        public ActionResult Tulokset2012()
+        {
+            return View();
+        }
+
+        public ActionResult Tulokset2011()
+        {
+            return View();
+        }
     }
 }
