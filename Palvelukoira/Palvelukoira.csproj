@@ -242,6 +242,8 @@
     <Content Include="Views\Palvelukoirat\Tulokset2014.cshtml" />
     <Content Include="Views\Palvelukoirat\Tulokset2012.cshtml" />
     <Content Include="Views\Palvelukoirat\Tulokset2011.cshtml" />
+    <Content Include="Views\Palvelukoirat\Tulokset2010.cshtml" />
+    <Content Include="Views\Palvelukoirat\Tulokset2009.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
