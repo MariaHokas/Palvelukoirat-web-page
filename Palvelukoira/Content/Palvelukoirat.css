@@ -19,7 +19,6 @@ hr {
     color: #277332;
 }
 
-
 p {
     color: #000;
     line-height: 1.7;
@@ -34,7 +33,6 @@ div.margins {
     padding-bottom: 20px;
     margin-top: 50px;
 }
-
 
 li.lineheight {
     line-height: 1.7;
@@ -143,11 +141,11 @@ textarea {
 div.border {
     border-color: black;
     background-color: whitesmoke;
-    min-height: 150px;
+    min-height: 300px;
     min-width: 190px;
-    margin-bottom: 30px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 2px;
+    margin-bottom: 20px;
+
 }
 
 .hakuryhmät_margin {
@@ -252,6 +250,17 @@ div.tausta_tapahtumat {
         margin-top: 15px;
         line-height: 7px;
         font-size: 12px;
+    }
+
+    li.margin {
+        text-align: center;
+        margin-left: 5px;
+        padding: 20px 0px;
+    }
+
+    li.marginxl {
+        text-align: center;
+        padding: 20px 0px;
     }
 }
 

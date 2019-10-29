@@ -1,5 +1,5 @@
 ﻿
-.imgetusivu {
+.img_taustakuva {
     background-image: url('../Images/IMGP4758c.jpg');
     background-size: cover;
     background-position: center;
@@ -9,7 +9,7 @@
     height: 100%;
 }
 
-.imghakurymät {
+.img_etusivu_hakuryhma {
     background-image: url('../Images/Dia68.JPG');
     background-size: contain;
     background-repeat: no-repeat;
@@ -22,16 +22,11 @@ li.marginimg {
     margin-right: 0px;
 }
 
-img.add {
-    margin-right: 1%;
-    margin-top: 2%;
-}
-
 img.säännöt {
     box-shadow: 2px 2px 8px #888888;
 }
 
-.imgporvoo2019 {
+.img_mainos1 {
     background-image: url('../Images/PORVOO2019pieni.jpg');
     background-size: contain;
     background-position: center;
@@ -39,7 +34,7 @@ img.säännöt {
     min-height: 100px;
 }
 /*Mainosten kuvat*/
-.imgpkt {
+.img_mainos2 {
     background-image: url('../Images/Pkt.jpg');
     background-size: contain;
     background-position: center;
@@ -47,7 +42,7 @@ img.säännöt {
     min-height: 100px;
 }
 
-.imgavec {
+.img_mainos3 {
     background-image: url('../Images/Pkt.jpg');
     background-image: url('../Images/avec.jpg');
     background-size: contain;
@@ -56,7 +51,7 @@ img.säännöt {
     min-height: 100px;
 }
 
-.imgpea {
+.img_mainos4 {
     background-image: url('../Images/pea.jpg');
     background-size: contain;
     background-position: center;
@@ -91,7 +86,7 @@ img.säännöt {
 
     @media (max-width: 600px) {
 
-        .imgetusivu {
+        .img_taustakuva {
             background-size: cover;
             background-position: right;
             background-repeat: no-repeat;
@@ -99,7 +94,7 @@ img.säännöt {
             min-height: 400px;
         }
         /*Mainosten kuvat*/
-        .imgporvoo2019 {
+        .img_mainos1 {
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
@@ -107,7 +102,7 @@ img.säännöt {
             margin-left: 20%;
         }
 
-        .imgpkt {
+        .img_mainos2 {
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
@@ -117,7 +112,7 @@ img.säännöt {
             margin-left: 20%;
         }
 
-        .imgavec {
+        .img_mainos3 {
             background-size: contain;
             background-repeat: no-repeat;
             width: 200px;
@@ -126,7 +121,7 @@ img.säännöt {
             margin-left: 20%;
         }
 
-        .imgpea {
+        .img_mainos4 {
             background-size: contain;
             background-repeat: no-repeat;
             width: 200px;
