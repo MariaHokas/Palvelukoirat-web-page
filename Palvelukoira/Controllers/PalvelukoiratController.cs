@@ -88,5 +88,27 @@ namespace Palvelukoira.Controllers
         {
             return View();
         }
+
+        public ActionResult Haku()
+        {
+            return View();
+        }
+
+        public ActionResult Jalki()
+        {
+            return View();
+        }
+        public ActionResult Toko()
+        {
+            return View();
+        }
+        public ActionResult Rallytoko()
+        {
+            return View();
+        }
+        public ActionResult Hallitus()
+        {
+            return View();
+        }
     }
 }

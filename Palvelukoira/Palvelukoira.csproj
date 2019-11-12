@@ -141,6 +141,8 @@
     <Content Include="Images\0 003.JPG" />
     <Content Include="Images\108.jpg" />
     <Content Include="Images\208.jpg" />
+    <Content Include="Images\21082794_1832923823386220_6154811499762951885_o.jpg" />
+    <Content Include="Images\22096159_1871275699551032_2206730474488751354_o.jpg" />
     <Content Include="Images\308.jpg" />
     <Content Include="Images\408.jpg" />
     <Content Include="Images\409.jpg" />
@@ -178,6 +180,7 @@
     <Content Include="Images\jaska.jpg" />
     <Content Include="Images\kenttaheina.jpg" />
     <Content Include="Images\Koira.jpg" />
+    <Content Include="Images\kuvat 352.JPG" />
     <Content Include="Images\lady.jpg" />
     <Content Include="Images\lehti.php" />
     <Content Include="Images\logo_wg3.jpg" />
@@ -244,6 +247,11 @@
     <Content Include="Views\Palvelukoirat\Tulokset2011.cshtml" />
     <Content Include="Views\Palvelukoirat\Tulokset2010.cshtml" />
     <Content Include="Views\Palvelukoirat\Tulokset2009.cshtml" />
+    <Content Include="Views\Palvelukoirat\Haku.cshtml" />
+    <Content Include="Views\Palvelukoirat\Jalki.cshtml" />
+    <Content Include="Views\Palvelukoirat\Toko.cshtml" />
+    <Content Include="Views\Palvelukoirat\Rallytoko.cshtml" />
+    <Content Include="Views\Palvelukoirat\Hallitus.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

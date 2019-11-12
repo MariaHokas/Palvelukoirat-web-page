@@ -23,6 +23,9 @@ p {
     color: #000;
     line-height: 1.7;
 }
+a {
+    display: block;
+}
 
 .anchor_target:target {
     padding-top: 110px;
@@ -216,6 +219,7 @@ btn {
 div.tausta_tapahtumat {
     border-radius: 0.5%;
     background-color: rgb(39,117,54);
+    margin-bottom: 50px;
 }
 
 .img_card{

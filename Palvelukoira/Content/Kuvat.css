@@ -76,6 +76,13 @@ img.säännöt {
     margin-top: 30px;
 }
 
+.imghaku {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 422px; 
+    height: 312px;
+}
+
 @media (max-width: 1024px) {
     .imgyhteystiedot {
         background-size: contain;
@@ -143,6 +150,13 @@ img.säännöt {
             background-position: center;
             background-repeat: no-repeat;
             min-height: 290px;
+        }
+
+        .imghaku {
+            margin-bottom: 20px;
+            margin-right: 20px;
+            width: 301px;
+            height: 199px;
         }
     }
 }
